@@ -8,7 +8,7 @@ const router = express.Router();
 const oauth2Client = new google.auth.OAuth2(
     process.env.GOOGLE_CLIENT_ID,
     process.env.GOOGLE_CLIENT_SECRET,
-    'http://localhost:3000/auth/google/callback'
+    `${process.env.BASE_URL || 'http://localhost:3000'}/auth/google/callback`
 );
 
 // Global in-memory store for Drive refresh tokens (for Day 1 & 2 testing)
