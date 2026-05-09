@@ -8,8 +8,6 @@
     { "source": "/auth/(.*)", "destination": "/backend/server.js" },
     { "source": "/api/(.*)", "destination": "/backend/server.js" },
     { "source": "/", "destination": "/frontend/index.html" },
-    { "source": "/app.html", "destination": "/frontend/app.html" },
-    { "source": "/js/(.*)", "destination": "/frontend/js/$1" },
     { "source": "/(.*)", "destination": "/frontend/$1" }
   ]
 }
