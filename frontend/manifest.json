@@ -1,0 +1,15 @@
+{
+  "name": "Olva AI",
+  "short_name": "Olva",
+  "start_url": "/app.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3206/3206015.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
